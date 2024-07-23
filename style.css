@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+#home{
+    margin-bottom: 20px;
+}
+
 .home-container{
     height: 100vh;
     background-image: url("./Project-Files/image-1.png");
@@ -43,4 +47,48 @@
     padding: 5px 15px;
     border: .5px solid #fff;
     border-radius: 12px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 90vw;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.input p{
+    font-size: 15px;
+    padding: 7px 0px;
+}
+
+.input input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.input button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
