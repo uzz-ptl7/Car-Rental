@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-container{
+    height: 100vh;
+    background-image: url("./Project-Files/image-1.png");
+    background-position: center;
+    color: white;
+}
+
+.home-container p{
+    font-size: 50px;
+    font-weight: 548;
+    text-align: center;
+    padding: 10px 0px;
+}
