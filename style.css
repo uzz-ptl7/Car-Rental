@@ -7,7 +7,7 @@
     height: 100vh;
     background-image: url("./Project-Files/image-1.png");
     background-position: center;
-    color: white;
+    color: #fff;
 }
 
 .home-container p{
@@ -15,4 +15,32 @@
     font-weight: 548;
     text-align: center;
     padding: 10px 0px;
+}
+
+.header{
+    display: flex;
+    padding: 20px 0px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+}
+
+.header-content-1{
+    width: 20%;
+}
+.header-content-2{
+    width: 60%;
+}
+.header-content-3{
+    width: 20%;
+}
+
+.header-content-3 button{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border: .5px solid #fff;
+    border-radius: 12px;
 }
