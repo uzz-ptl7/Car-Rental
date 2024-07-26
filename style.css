@@ -1,7 +1,11 @@
+/* General Style */
+
 *{
     margin: 0;
     padding: 0;
 }
+
+/* Home Styling */
 
 #home{
     margin-bottom: 20px;
@@ -102,7 +106,55 @@
 }
 
 .input .input-container i{
-     margin-left: -95%;
-     position: absolute;
-     top: 30%;
+    margin-left: -95%;
+    position: absolute;
+    top: 30%;
+}
+
+/* Brand-Section Styling */
+
+#brand-section, #body-type-section{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.rent-brand-container, .rent-body-container{
+    width: 90vw;
+}
+
+.brand-section-heading, .body-type-heading{
+    display: flex;
+}
+
+.brand-section-button, .body-type-button{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.body-type-button{
+    width: 88%;
+}
+
+.brand-section-button a, .body-type-button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.brand-container, .body-type-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brand-content, .body-type-content{
+    background-color: #E5E4E2;
+    width: 15%;
+    height: 120px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
