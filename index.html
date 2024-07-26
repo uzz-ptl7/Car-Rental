@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Car Rental</title>
 </head>
@@ -43,7 +44,10 @@
             <div class="form">
                 <div class="input">
                     <p>Pick-up Location</p>
-                    <input type="text" placeholder="Search a Location">
+                        <div class="input-container">
+                            <input type="text" placeholder="Search a Location">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
                 </div>
 
                 <div class="input">
@@ -53,7 +57,10 @@
 
                 <div class="input">
                     <p>Drop-off Location</p>
-                    <input type="text" placeholder="Search a Location">
+                    <div class="input-container">
+                        <input type="text" placeholder="Search a Location">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
                 </div>
 
                 <div class="input">
@@ -64,9 +71,7 @@
                 <div class="input">
                     <button>
                         Find a Vehicle
-                        <svg width="18" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.75 9H14.25M14.25 9L9 3.75M14.25 9L9 14.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>                           
+                        <i class="fa-solid fa-arrow-right"></i>                           
                     </button>
                 </div>
             </div>

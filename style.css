@@ -84,11 +84,25 @@
 }
 
 .input button{
-    padding: 10px 20px;
+    padding: 17px 0;
     margin-top: 30px;
     background-color: #000;
     color: #fff;
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
     cursor: pointer;
+}
+
+.input .input-container{
+    position: relative;
+}
+
+.input .input-container input{
+    padding-left: 25px;
+}
+
+.input .input-container i{
+     margin-left: -95%;
+     position: absolute;
+     top: 30%;
 }
