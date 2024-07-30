@@ -191,3 +191,97 @@
     background-color: #000;
     color: #fff;
 }
+
+.collection-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+.collection-items{
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.collection-items .img-container, .specs-container, .button-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+} 
+
+.collection-items .img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.details-container{
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.details-container h1{
+    padding: 5px 0px;
+}
+
+.details-container h1 sub{
+    font-weight: 100;
+    color: gray;
+}
+
+.specs-container, .button{
+     margin: 10px 0px;
+     padding-left: unset;
+}
+
+.specs-content{
+    width: 95%;
+    height: 80px;
+    background-color: #E5E4E2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.specs{
+    text-align: center;
+}
+
+.button{
+    width: 95%;
+}
+
+.button button{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #fff;
+    color: #000;
+    border: .5 solid #000;
+    border-radius: 30px;
+}
+
+.item-2{
+    border: 1px solid black;
+}
+
+.item-2 button{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.see-all-button{
+    display: flex;
+    justify-content: center;
+}
+
+.see-all-button button{
+    padding: 16px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
