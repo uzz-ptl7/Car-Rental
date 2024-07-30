@@ -113,13 +113,13 @@
 
 /* Brand-Section Styling */
 
-#brand-section, #body-type-section{
+#brand-section, #body-type-section, #collection-section, .collection-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
 
-.rent-brand-container, .rent-body-container{
+.rent-brand-container, .rent-body-container, .collection-section-container{
     width: 90vw;
 }
 
@@ -157,4 +157,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#collection-section{
+    background-color: #E5E4E2;
+    padding-bottom: 40px;
+    margin-bottom: unset;
+}
+
+.collection-header{
+    width: 55%;
+    text-align: center;
+}
+
+.collection-header p {
+    padding: 15px 0px;
+}
+
+.collection-header ul li{
+    display: inline;
+    padding: 7px 5px;
+}
+
+.collection-header ul li a{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 7px 15px;
+    border-radius: 30px;
+}
+
+.collection-header ul li:first-of-type a{
+    background-color: #000;
+    color: #fff;
 }
