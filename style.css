@@ -111,15 +111,18 @@
     top: 30%;
 }
 
-/* Brand-Section Styling */
+/* Rent by Brand & Body type - Section Styling */
 
-#brand-section, #body-type-section, #collection-section, .collection-header-container{
+#brand-section, #body-type-section,
+ #collection-section, .collection-header-container,
+ #how-section, .how-section-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
 
-.rent-brand-container, .rent-body-container, .collection-section-container{
+.rent-brand-container, .rent-body-container,
+ .collection-section-container, .how-section-container{
     width: 90vw;
 }
 
@@ -165,12 +168,12 @@
     margin-bottom: unset;
 }
 
-.collection-header{
+.collection-header, .how-section-header{
     width: 55%;
     text-align: center;
 }
 
-.collection-header p {
+.collection-header p, .how-section-header p{
     padding: 15px 0px;
 }
 
@@ -284,4 +287,8 @@
     border-radius: 30px;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+
+.collection-header h1, .how-section-header h1{
+     font-family: sans-serif;
 }
