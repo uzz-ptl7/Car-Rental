@@ -111,7 +111,7 @@
     top: 30%;
 }
 
-/* Rent by Brand & Body type - Section Styling */
+/* Multiple Sections Styling */
 
 #brand-section, #body-type-section,
  #collection-section, .collection-header-container,
@@ -125,6 +125,8 @@
  .collection-section-container, .how-section-container{
     width: 90vw;
 }
+
+/* Rent by Body-type and Brand Styling */
 
 .brand-section-heading, .body-type-heading{
     display: flex;
@@ -161,6 +163,8 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Collection Styling */
 
 #collection-section{
     background-color: #E5E4E2;
@@ -291,4 +295,67 @@
 
 .collection-header h1, .how-section-header h1{
      font-family: sans-serif;
+}
+
+/* How Section Styling */
+
+.how-container{
+    display: flex;
+    position: relative;
+}
+
+.how-container .how-content-empty{
+    width: 30%;
+}
+
+.how-content-steps{
+    width: 45%;
+    position: absolute;
+    align-items: center;
+}
+
+.step-container{
+    display: flex;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 30px 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-content h3{
+    padding-bottom: 15px;
+    font-family: sans-serif;
+}
+
+.step-content p{
+    text-align: justify;
+    padding-right: 25px;
+}
+
+.step-icon-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-icon{
+    background-color: #F5F5F5;
+    padding: 35px 12px;
+    border-radius: 10px;
+}
+
+.how-container .car-img{
+    width: 70%;
+    background-color:#F5F5F5;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-radius: 15px;
 }
