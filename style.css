@@ -113,26 +113,36 @@
 
 /* Multiple Sections Styling */
 
-#brand-section, #body-type-section,
- #collection-section, .collection-header-container,
- #how-section, .how-section-header-container{
+#brand-section, 
+#body-type-section, 
+#collection-section, 
+.collection-header-container, 
+#how-section, 
+.how-section-header-container, 
+#service-section, 
+.service-section-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
 
-.rent-brand-container, .rent-body-container,
- .collection-section-container, .how-section-container{
+.rent-brand-container, 
+.rent-body-container, 
+.collection-section-container, 
+.how-section-container, 
+.service-section-container{
     width: 90vw;
 }
 
 /* Rent by Body-type and Brand Styling */
 
-.brand-section-heading, .body-type-heading{
+.brand-section-heading, 
+.body-type-heading{
     display: flex;
 }
 
-.brand-section-button, .body-type-button{
+.brand-section-button, 
+.body-type-button{
     width: 90%;
     display: flex;
     justify-content: end;
@@ -142,18 +152,21 @@
     width: 88%;
 }
 
-.brand-section-button a, .body-type-button a{
+.brand-section-button a, 
+.body-type-button a{
     text-decoration: none;
     color: #000;
 }
 
-.brand-container, .body-type-container{
+.brand-container, 
+.body-type-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.brand-content, .body-type-content{
+.brand-content, 
+.body-type-content{
     background-color: #E5E4E2;
     width: 15%;
     height: 120px;
@@ -172,12 +185,16 @@
     margin-bottom: unset;
 }
 
-.collection-header, .how-section-header{
+.collection-header, 
+.how-section-header, 
+.service-section-header{
     width: 55%;
     text-align: center;
 }
 
-.collection-header p, .how-section-header p{
+.collection-header p, 
+.how-section-header p, 
+.service-section-header p{
     padding: 15px 0px;
 }
 
@@ -211,7 +228,9 @@
     border-radius: 15px;
 }
 
-.collection-items .img-container, .specs-container, .button-container{
+.collection-items .img-container, 
+.specs-container, 
+.button-container{
     display: flex;
     justify-content: center;
     margin: 10px;
@@ -236,7 +255,8 @@
     color: gray;
 }
 
-.specs-container, .button{
+.specs-container, 
+.button{
      margin: 10px 0px;
      padding-left: unset;
 }
@@ -293,7 +313,8 @@
     margin-bottom: 30px;
 }
 
-.collection-header h1, .how-section-header h1{
+.collection-header h1, 
+.how-section-header h1{
      font-family: sans-serif;
 }
 
@@ -358,4 +379,44 @@
     align-items: center;
     height: 600px;
     border-radius: 15px;
+}
+
+/* Service Section Styling */
+
+#service-section{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 0px;
+    margin-bottom: unset;
+}
+
+.service-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+.service-item .service-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon-container .service-icon{
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.service-item .service-content{
+    text-align: center;
+}
+
+.service-item .service-content h4{
+    padding: 10px 0px;
+}
+
+.service-item .service-content p{
+    padding: 20px 30px;
 }
