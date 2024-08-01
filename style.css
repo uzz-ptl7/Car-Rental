@@ -120,7 +120,8 @@
 #how-section, 
 .how-section-header-container, 
 #service-section, 
-.service-section-header-container{
+.service-section-header-container,
+#comment-section{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
@@ -130,19 +131,22 @@
 .rent-body-container, 
 .collection-section-container, 
 .how-section-container, 
-.service-section-container{
+.service-section-container,
+.comment-section-container{
     width: 90vw;
 }
 
 /* Rent by Body-type and Brand Styling */
 
-.brand-section-heading, 
-.body-type-heading{
+.brand-section-header, 
+.body-type-header, 
+.comment-section-header{
     display: flex;
 }
 
 .brand-section-button, 
-.body-type-button{
+.body-type-button, 
+.comment-section-buttons{
     width: 90%;
     display: flex;
     justify-content: end;
@@ -384,8 +388,8 @@
 /* Service Section Styling */
 
 #service-section{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #000;
+    color: #fff;
     padding: 40px 0px;
     margin-bottom: unset;
 }
@@ -403,7 +407,7 @@
 }
 
 .service-icon-container .service-icon{
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 12px;
     border-radius: 50%;
     margin-bottom: 5px;
@@ -419,4 +423,53 @@
 
 .service-item .service-content p{
     padding: 20px 30px;
+}
+
+/* Comment Section Styling */
+
+.comment-section-buttons{
+    width: 75% !important;
+}
+
+.comment-section-buttons button{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.comment-section-buttons .comment-section-button-1{
+    background-color: #fff;
+    color: #a4a4a4;
+    border: 2px solid #C0C0C0;
+}
+
+.comment-section-buttons .comment-section-button-2{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.comment-content{
+    width: 90%;
+    margin: 20px 0px;
+}
+
+.comment-content p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment-owner-container{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.comment-owner-container-name{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.comment-owner-container-name h4{
+    padding: 10px 0px;
 }
