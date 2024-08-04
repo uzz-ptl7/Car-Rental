@@ -120,14 +120,15 @@ a{
 #brand-section, 
 #body-type-section, 
 #collection-section, 
-.collection-header-container, 
-#how-section, 
-.how-section-header-container, 
+#how-section,
 #service-section, 
-.service-section-header-container,
 #comment-section, 
 #download-section, 
-#footer{
+footer,  
+.collection-header-container, 
+.how-section-header-container, 
+.service-section-header-container
+{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
@@ -589,4 +590,39 @@ footer{
     height: 30px;
     background-color: rgb(40, 40, 40);
     border-radius: 50%;
+}
+
+/* mobile view */
+
+@media (max-width:600px) { 
+    #brand-section, 
+    #body-type-section, 
+    #collection-section, 
+    #how-section,
+    #service-section, 
+    #comment-section, 
+    #download-section, 
+    footer {
+        display: none;
+    }
+
+/* Home Page Style */
+
+    .header-content-3{
+        display: none;
+    }
+    
+    .home-container p{
+        font-size: 20px;
+    }
+
+    .form-container {
+        align-items: center;
+    }
+
+    .form{
+        flex-direction: column;
+        width: 70%;
+    }
+
 }
