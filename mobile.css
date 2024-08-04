@@ -13,6 +13,14 @@
         grid-template-columns: auto;
     }
 
+    .form, 
+    .how-container, 
+    .download-section-container, 
+    .download-button-container, 
+    .footer-container{
+        flex-direction: column;
+    }
+
 /* Home Section */
 
     .header-content-3{
@@ -26,8 +34,8 @@
     .form-container{
         align-items: center;
     }
+
     .form{
-        flex-direction: column;
         width: 70%;
     }
 
@@ -60,10 +68,6 @@
     }   
 
 /* How Section Styling */
-
-    .how-container{
-        flex-direction: column;
-    }
 
     .how-container .car-img{
         width: 100%;
@@ -124,18 +128,10 @@
 
 /* Download Section Styling */
 
-    .download-section-container{
-        flex-direction: column;
-    }
-
     .download-section-container .download-content{
         width: 100%;
         margin: 0;
         padding: 0;
-    }
-
-    .download-button-container{
-        flex-direction: column;
     }
 
     .download-button{
@@ -143,10 +139,6 @@
     }
 
 /* Footer Section Styling */
-
-    .footer-container{
-        flex-direction: column;
-    }
 
     .footer-logo, 
     .footer-nav, 
