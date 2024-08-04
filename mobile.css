@@ -141,4 +141,25 @@
     .download-button{
         margin: 10px 0px;
     }
+
+/* Footer Section Styling */
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-logo, 
+    .footer-nav, 
+    .footer-socials{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
 }
