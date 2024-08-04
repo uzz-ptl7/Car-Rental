@@ -1,4 +1,4 @@
-/* General Style */
+/* General Styling */
 
 *{
     margin: 0;
@@ -9,24 +9,25 @@ a{
     text-decoration: none;
 }
 
-/* Home Styling */
+/* Home Section Styling */
 
-#home{
+#home-section{
     margin-bottom: 20px;
 }
 
 .home-container{
     height: 100vh;
-    background-image: url("./Project-Files/image-1.png");
+    background-image: url("./Project-Files/Home-bg.png");
+    background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 .home-container p{
-    font-size: 50px;
-    font-weight: 548;
     text-align: center;
     padding: 10px 0px;
+    font-size: 50px;
+    font-weight: 548;
 }
 
 .header{
@@ -38,23 +39,24 @@ a{
     display: flex;
     justify-content: center;
 }
-
 .header-content-1{
     width: 20%;
 }
+
 .header-content-2{
     width: 60%;
 }
+
 .header-content-3{
     width: 20%;
 }
 
 .header-content-3 button{
-    background-color: #000;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     padding: 5px 15px;
-    border: .5px solid #fff;
-    border-radius: 12px;
+    border: .5px solid #ffffff;
+    border-radius: 15px;
 }
 
 .form-container{
@@ -65,12 +67,12 @@ a{
 .form{
     margin-top: -50px;
     display: flex;
+    width: 90vw;
     justify-content: space-around;
     align-items: center;
-    border-radius: 10px;
-    width: 90vw;
     padding: 20px;
-    background-color: #fff;
+    border-radius: 10px;
+    background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -117,58 +119,75 @@ a{
 
 /* Multiple Sections Styling */
 
-#brand-section, 
-#body-type-section, 
+#brand-section,
+#body-type-section,
 #collection-section, 
 #how-section,
-#service-section, 
-#comment-section, 
-#download-section, 
-footer,  
-.collection-header-container, 
-.how-section-header-container, 
-.service-section-header-container
-{
+#service-section,
+#comment-section,
+#download-section,
+.collection-section-header-container,
+.how-section-header-container,
+.service-section-header-container,
+footer{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
 
-.rent-brand-container, 
-.rent-body-container, 
-.collection-section-container, 
-.how-section-container, 
+.brand-section-container, 
+.body-type-section-container, 
+.collection-section-container,
+.how-section-container,
 .service-section-container,
-.comment-section-container, 
-.download-section-container, 
+.comment-section-container,
+.download-section-container,
 .footer-container{
     width: 90vw;
 }
 
-/* Rent by Body-type and Brand Styling */
-
 .brand-section-header, 
-.body-type-header, 
+.body-type-section-header,
 .comment-section-header{
     display: flex;
 }
 
 .brand-section-button, 
-.body-type-button, 
+.body-type-section-button,
 .comment-section-buttons{
-    width: 90%;
+    width: 88%;
     display: flex;
     justify-content: end;
 }
 
-.body-type-button{
-    width: 88%;
+.collection-section-header,
+.how-section-header,
+.service-section-header{
+    width: 55%;
+    text-align: center;
 }
 
+.collection-section-header p,
+.how-section-header p,
+.service-section-header p{
+    padding: 15px 0px;
+}
+
+.collection-section-header h1,
+.how-section-header h1{
+    font-family: sans-serif;
+}
+
+/* Rent by Brand & Body-type Section Styling */
+
 .brand-section-button a, 
-.body-type-button a{
+.body-type-section-button a{
     text-decoration: none;
-    color: #000;
+    color: #000000;
+}
+
+.body-type-section-button{
+    width: 86%;
 }
 
 .brand-container, 
@@ -180,9 +199,9 @@ footer,
 
 .brand-content, 
 .body-type-content{
-    background-color: #E5E4E2;
     width: 15%;
-    height: 120px;
+    height: 100px;
+    background-color: #E5E4E2;
     margin: 10px 0px;
     border-radius: 5px;
     display: flex;
@@ -190,7 +209,12 @@ footer,
     align-items: center;
 }
 
-/* Collection Styling */
+.brand, 
+.body-type{
+    text-align: center;
+}
+
+/* Collection Section Styling */
 
 #collection-section{
     background-color: #E5E4E2;
@@ -198,35 +222,23 @@ footer,
     margin-bottom: unset;
 }
 
-.collection-header, 
-.how-section-header, 
-.service-section-header{
-    width: 55%;
-    text-align: center;
-}
-
-.collection-header p, 
-.how-section-header p, 
-.service-section-header p{
-    padding: 15px 0px;
-}
-
-.collection-header ul li{
+.collection-section-header ul li{
     display: inline;
     padding: 7px 5px;
+    justify-content: center;
 }
 
-.collection-header ul li a{
+.collection-section-header ul li a{
     text-decoration: none;
-    color: #000;
-    background-color: #fff;
+    color: #000000;
+    background-color: #ffffff;
     padding: 7px 15px;
     border-radius: 30px;
 }
 
-.collection-header ul li:first-of-type a{
-    background-color: #000;
-    color: #fff;
+.collection-section-header ul li:first-of-type a{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .collection-grid{
@@ -235,21 +247,20 @@ footer,
     column-gap: 20px;
 }
 
-.collection-items{
-    background-color: #fff;
+.collection-item{
+    background-color: #ffffff;
     margin-bottom: 20px;
     border-radius: 15px;
 }
-
-.collection-items .img-container, 
+.collection-item .img-container, 
 .specs-container, 
 .button-container{
     display: flex;
     justify-content: center;
     margin: 10px;
-} 
+}
 
-.collection-items .img-container img{
+.collection-item img, .img-container img{
     width: 100%;
     height: auto;
 }
@@ -268,15 +279,14 @@ footer,
     color: gray;
 }
 
-.specs-container, 
-.button{
-     margin: 10px 0px;
-     padding-left: unset;
+.specs-container, .button{
+    margin: 10px 0px;
+    padding-left: unset;
 }
 
 .specs-content{
     width: 95%;
-    height: 80px;
+    height: 70px;
     background-color: #E5E4E2;
     display: flex;
     justify-content: space-around;
@@ -295,20 +305,19 @@ footer,
 .button button{
     width: 100%;
     padding: 10px 0px;
-    background-color: #fff;
-    color: #000;
-    border: .5 solid #000;
+    background-color: #ffffff;
+    color: #000000;
+    border: .5px solid #000000;
     border-radius: 30px;
 }
 
-.item-2{
+.collection-item-2{
     border: 1px solid black;
 }
 
-.item-2 button{
-    background-color: #000;
-    color: #fff;
-    border: 1px solid #000;
+.collection-item-2 button{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .see-all-button{
@@ -317,18 +326,12 @@ footer,
 }
 
 .see-all-button button{
-    padding: 16px 30px;
-    background-color: #000;
-    color: #fff;
+    padding: 15px 30px;
+    margin: 50px;
+    background-color: #000000;
+    color: #ffffff;
     border: none;
     border-radius: 30px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-.collection-header h1, 
-.how-section-header h1{
-     font-family: sans-serif;
 }
 
 /* How Section Styling */
@@ -397,8 +400,8 @@ footer,
 /* Service Section Styling */
 
 #service-section{
-    background-color: #000;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     padding: 40px 0px;
     margin-bottom: unset;
 }
@@ -416,7 +419,7 @@ footer,
 }
 
 .service-icon-container .service-icon{
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 12px;
     border-radius: 50%;
     margin-bottom: 5px;
@@ -431,7 +434,7 @@ footer,
 }
 
 .service-item .service-content p{
-    padding: 20px 30px;
+    padding: 10px;
 }
 
 /* Comment Section Styling */
@@ -590,39 +593,4 @@ footer{
     height: 30px;
     background-color: rgb(40, 40, 40);
     border-radius: 50%;
-}
-
-/* mobile view */
-
-@media (max-width:600px) { 
-    #brand-section, 
-    #body-type-section, 
-    #collection-section, 
-    #how-section,
-    #service-section, 
-    #comment-section, 
-    #download-section, 
-    footer {
-        display: none;
-    }
-
-/* Home Page Style */
-
-    .header-content-3{
-        display: none;
-    }
-    
-    .home-container p{
-        font-size: 20px;
-    }
-
-    .form-container {
-        align-items: center;
-    }
-
-    .form{
-        flex-direction: column;
-        width: 70%;
-    }
-
 }
